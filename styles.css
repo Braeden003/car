@@ -1,6 +1,66 @@
 
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-p {
+body {
+	background-color: #fff;
 	font-family:'roboto',sans-serif;
+	margin: 0;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 100%;
+	width: 1000px;
+}
+
+header{
+	background-image: url("images/car-bg.jpeg");
+	color: white;
+	background-size: cover;
+	background-position: center center;
+	display: flex;
+	min-height: 100vh;
+	
+}
+
+header .content {
+	margin:auto;
+}
+
+
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	padding: 1rem;
+}
+
+nav .logo{
+	font-size: 2rem;
+}
+
+nav ul {
+	display: flex;
+	list-style-type: none;
+	padding: 0;
+}
+
+nav li {
+	color: white;
+	padding: 1rem;
+	text-decoration: none;
+}
+
+.selected {
+	font-weight: bold;
+}
+
+.highlight {
+	background-color: #00c2ff;
+	text-decoration: none;
+}
+
+footer {
+	background-color: black;
+	color: aliceblue
 }
